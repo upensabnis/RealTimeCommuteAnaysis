@@ -1,5 +1,5 @@
 # RealTimeCommuteAnaysis
-Data engineering project on analysis about time spent by child in cummute 
+Project on Analysis on time spent on Commute by Children in a City. 
 
 All Rights Reserved @Dheeraj Ranga Chinni, Upendra Sabnis and Piyush Supdip Patel.
 
