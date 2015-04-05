@@ -1,6 +1,8 @@
 # RealTimeCommuteAnaysis
 Data engineering project on analysis about time spent by child in cummute 
 
+All Rights Reserved @Dheeraj Ranga Chinni, Upendra Sabnis and Piyush Supdip Patel.
+
 ##Data Analysis on real time data.
 
 * Data Generator: Python program generating student commute data in the form of Json. 
