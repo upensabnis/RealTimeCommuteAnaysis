@@ -15,7 +15,7 @@ collection_name = 'test2'
 
 @app.route('/')
 def index():
-	return 'This is index'
+	return render_template("index.html");
 	
 #This will retreive the data from the server and Mongodb and store it in to list. 
 @app.route('/data')
@@ -27,7 +27,7 @@ def Data():
 	data = collection.find()	
 	for record in data:
 		json_data.append(record)
-	json_data = json.dumps(data1,default= json_util.default)
+	json_data = json.dumps(json_data,default= json_util.default)
 	return json_data
 
 if __name__ == '__main__':
