@@ -19,11 +19,7 @@
 <script type="text/javascript">
 	document.write("javascript");
 
-	queue()
-		.defer(d3.json,"/data")
-		.await(makeGraphs)
-
-	function makeGraphs(error,jsondata){
+	d3.json("school_data.json", function(json){
 
 	var w = 1000,
 		h = 400;
@@ -67,7 +63,7 @@
 				.attr("font-size", "15px")
 				.style("font-weight", "bold");
 
-	}
+	});
 </script>
 
 

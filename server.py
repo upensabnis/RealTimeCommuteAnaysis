@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 from flask import render_template
 from flask import url_for
 from pymongo import MongoClient
@@ -6,11 +6,14 @@ import json
 from bson import json_util
 from bson.json_util import dumps
 
-app = Flask(__name__)
+app = Flask(__name__,static_url_path='/home/user/RealTimeCommuteAnaysis/templates/')
 
 @app.route('/')
 def index():
-	return render_template("Data.html");
+	return render_template("statistics_pie.html");
+	
+
+
 	
 #This will retreive the data from the server and Mongodb and store it in to list. 
 @app.route('/data')
