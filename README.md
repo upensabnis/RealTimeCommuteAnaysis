@@ -5,8 +5,8 @@ Data engineering project on analysis about time spent by student in commute
 
 ###Project Description and scope:
 
-* The main idea is to track the students data travelling from home to school and from school to home and get an idea how much times is spent travelling. 
-* Analytics we had in mind are showing the average time a student speding for travelling. 
+* The main idea is to collect the students data in travelling from home to school and back. 
+* Analyse this data to find out how much time is spent by an individual in commute. 
 * Average commute time for a particular school in a specific town. 
 * Show the analytics in D3.js visualizations. 
 * Real time tracking of student on google maps.
@@ -15,15 +15,15 @@ Data engineering project on analysis about time spent by student in commute
 
 * Apache storm.
 * Apache Kafka,Zookeeper.
-* flask server.
+* Flask.
 * D3.js.
 * MongoDb.
-* python data generator.
+* Python data generator.
 * keen.io(Templates for showing data analytics)
 
 ###Current project status:
 
-* Successfully created data generator and managed the data using kafka, Zoo keeper. In the end finished the data cleanup using Apache storm.
+* Successfully created data generator and managed the data using kafka and Zoo keeper. Data cleanup is done using Apache storm. Finally this data is stored in MongoDB.
 * Successfully calculated students average time spent in travelling for 5 different schools in one particular county.
 * Successfully calculated average commute time for a specific school based on the number of students. 
 * Successfully show the analytics using D3.js visualzation. 
